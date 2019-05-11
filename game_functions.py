@@ -4,9 +4,9 @@ import pygame
 
 def check_keydown_events(event, ship):
 	""" Respond to keypresses"""
-	if event.type == pygame.K_RIGHT:
+	if event.key == pygame.K_RIGHT:
 		ship.moving_right = True
-	elif event.type == pygame.K_LEFT:
+	elif event.key == pygame.K_LEFT:
 		ship.moving_left = True
 
 def check_keyup_events(event, ship):
