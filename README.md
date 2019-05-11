@@ -1,2 +1,2 @@
 # Games
-Making of game is in progress, these are incomplete codes.
+Making of game is in progress, yet to add levels, scoring and stuff.
